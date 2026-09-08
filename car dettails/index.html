@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LYON AUTO · Detailing d'Exception & Protection Automobile à Lyon</title>
+  <meta name="description" content="Atelier spécialisé dans le detailing haute précision, la protection céramique Quartz, le film de protection PPF et le covering haut de gamme à Lyon. 850m² d'exception pour véhicules de prestige.">
+  <meta name="keywords" content="detailing lyon, car detailing lyon, protection ceramique lyon, ppf lyon, xpel lyon, polissage voiture lyon, renov carrosserie lyon">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LYON AUTO · Detailing & Protection Automobile d'Exception à Lyon">
+  <meta property="og:description" content="Le centre de référence pour le soin, le polissage et la protection céramique & PPF de véhicules de luxe à Lyon.">
+  <meta property="og:image" content="images/hero-bg.jpg">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. HEADER / NAVBAR
+       ========================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo" id="main-logo">
+        <div class="logo-icon">LA</div>
+        <div class="logo-text">
+          <span class="logo-title">LYON AUTO</span>
+          <span class="logo-subtitle">DETAILING EXCEPTION</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Accueil</a></li>
+          <li><a href="#workshop" class="nav-link">L'Atelier</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#lounge" class="nav-link">Expérience VIP</a></li>
+          <li><a href="#protocol" class="nav-link">Protocole</a></li>
+          <li><a href="#gallery" class="nav-link">Avant / Après</a></li>
+          <li><a href="#testimonials" class="nav-link">Avis</a></li>
+          <li><a href="#booking" class="nav-link">Tarifs & Booking</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="fr">FR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="btn btn-gold btn-sm" data-open-modal="booking" id="nav-book-btn">
+          <span>Réserver un Soin</span>
+        </button>
+        <div class="mobile-toggle" id="mobile-menu-trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-overlay">
+    <a href="#home" class="mobile-nav-link">Accueil</a>
+    <a href="#workshop" class="mobile-nav-link">L'Atelier</a>
+    <a href="#services" class="mobile-nav-link">Services</a>
+    <a href="#lounge" class="mobile-nav-link">Expérience Lounge</a>
+    <a href="#protocol" class="mobile-nav-link">Le Protocole</a>
+    <a href="#gallery" class="mobile-nav-link">Galerie Avant/Après</a>
+    <a href="#testimonials" class="mobile-nav-link">Avis Clients</a>
+    <a href="#booking" class="mobile-nav-link">Devis & Réservation</a>
+    <button class="btn btn-gold" data-open-modal="booking">Réserver un Créneau</button>
+  </div>
+
+  <!-- ==========================================================================
+       2. HERO SECTION
+       ========================================================================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="images/hero-bg.jpg" alt="Porsche 911 dans un atelier de detailing haut de gamme à Lyon" loading="eager">
+    </div>
+    <div class="hero-overlay"></div>
+    
+    <div class="container hero-content">
+      <div class="badge reveal">
+        <span>✦</span> HAUTE COUTURE AUTOMOBILE · LYON FRANCE
+      </div>
+      
+      <h1 class="hero-title reveal">
+        L'EXCELLENCE DE LA <br><span class="text-gold">RÉNOVATION AUTOMOBILE</span>
+      </h1>
+      
+      <p class="hero-description reveal">
+        Atelier d'élite spécialisé dans le detailing haute précision, la protection céramique Quartz et la pose de films de protection carrosserie (PPF) sur-mesure pour supercars et véhicules de collection.
+      </p>
+      
+      <div class="hero-actions reveal">
+        <button class="btn btn-gold" data-open-modal="booking" id="hero-cta-book">
+          <span>✦ RÉSERVER UN SOIN</span>
+        </button>
+        <a href="#gallery" class="btn btn-outline" id="hero-cta-work">
+          <span>DÉCOUVRIR NOS RÉALISATIONS</span>
+        </a>
+      </div>
+      
+      <!-- Key Statistics -->
+      <div class="hero-stats reveal">
+        <div class="stat-item">
+          <div class="stat-number" data-counter="850" data-suffix=" m²">850 m²</div>
+          <div class="stat-label">Atelier d'Exception à Lyon</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-counter="500" data-suffix="+">500+</div>
+          <div class="stat-label">Supercars & Prestiges Traités</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-counter="99" data-suffix="%">99%</div>
+          <div class="stat-label">Correction Micro-Rayures</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-counter="10" data-suffix=" Ans">10 Ans</div>
+          <div class="stat-label">Garantie Céramique & PPF</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. WORKSHOP / FACILITY SECTION
+       ========================================================================== -->
+  <section class="section" id="workshop">
+    <div class="container">
+      <div class="workshop-grid">
+        <div class="workshop-info reveal">
+          <span class="section-subtitle">INFRASTRUCTURE D'ÉLITE</span>
+          <h2 class="section-title">UN ATELIER CONÇU POUR LE SOIN ABSOLU</h2>
+          
+          <div class="workshop-stat-badge">
+            <span class="stat-huge">850</span>
+            <span class="stat-huge-label">m² d'installation ultra-moderne sécurisée</span>
+          </div>
+          
+          <p style="color: var(--silver-muted); font-size: 0.95rem;">
+            Situé au cœur de la métropole lyonnaise, le centre **LYON AUTO** dispose d'un espace entièrement sous atmosphère et hygrométrie contrôlées, doté d'éclairages spectraux LED à 5500 Kelvin pour déceler la moindre imperfection.
+          </p>
+          
+          <!-- Facility Cards List -->
+          <div class="facilities-list">
+            <div class="facility-card">
+              <div class="facility-icon">🔍</div>
+              <div class="facility-text">
+                <h4>Diagnostic & Épaisseur</h4>
+                <p>Mesure ultrasonique au micron près sur tous panneaux.</p>
+              </div>
+            </div>
+            
+            <div class="facility-card">
+              <div class="facility-icon">💧</div>
+              <div class="facility-text">
+                <h4>Ligne de Lavage Osmosée</h4>
+                <p>Eau 100% filtrée sans calcaire avec séchage à air chaud.</p>
+              </div>
+            </div>
+            
+            <div class="facility-card">
+              <div class="facility-icon">✨</div>
+              <div class="facility-text">
+                <h4>Baie Polissage Spectrale</h4>
+                <p>Studio d'inspection sous rampe de lumières LED d'analyse.</p>
+              </div>
+            </div>
+            
+            <div class="facility-card">
+              <div class="facility-icon">🛡️</div>
+              <div class="facility-text">
+                <h4>Clean Room Hermétique</h4>
+                <p>Espace dépoussiéré pour la pose chirurgicale des films PPF.</p>
+              </div>
+            </div>
+
+            <div class="facility-card">
+              <div class="facility-icon">🔥</div>
+              <div class="facility-text">
+                <h4>Station Infrarouge</h4>
+                <p>Cuisson des traitements céramiques à température idéale.</p>
+              </div>
+            </div>
+
+            <div class="facility-card">
+              <div class="facility-icon">🛋️</div>
+              <div class="facility-text">
+                <h4>Lounge VIP Insonorisé</h4>
+                <p>Vue directe sur l'atelier avec bar à café et simu racing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="workshop-image-wrapper reveal">
+          <img src="images/workshop.jpg" alt="Vue d'ensemble de l'atelier Lyon Auto" loading="lazy">
+          <div class="image-tag">
+            <span>📍</span> LYON 6ÈME · ACCÈS VIP SÉCURISÉ 24/7
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. CORE SERVICES SECTION
+       ========================================================================== -->
+  <section class="section" id="services" style="background: rgba(18,20,24,0.4);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">PRESTATIONS SUR-MESURE</span>
+        <h2 class="section-title">NOS SERVICES D'EXCEPTION</h2>
+        <p style="color: var(--silver-muted); margin-top: 16px;">
+          Chaque intervention fait l'objet d'un cahier des charges rigoureux pour sublimer et préserver la valeur de votre automobile.
+        </p>
+      </div>
+      
+      <div class="services-grid">
+        <!-- Service Card 1 -->
+        <article class="service-card reveal">
+          <div class="service-image">
+            <img src="images/service-detailing.jpg" alt="Detailing voiture et polissage à la main" loading="lazy">
+            <span class="service-badge">SOIN INTÉGRAL</span>
+          </div>
+          <div class="service-content">
+            <h3 class="service-title">Detailing Haute Précision</h3>
+            <p class="service-description">
+              Nettoyage en profondeur intérieur et extérieur, correction de peinture multi-passes (cut & polish) éliminant hologrammes et micro-rayures, et soin nourrissant des cuirs.
+            </p>
+            <div class="service-footer">
+              <div class="service-price">
+                <span class="price-label">À partir de</span>
+                <span class="price-amount">790 €</span>
+              </div>
+              <button class="service-link" data-open-modal="booking">
+                En savoir plus <span>→</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service Card 2 -->
+        <article class="service-card reveal">
+          <div class="service-image">
+            <img src="images/service-protection.jpg" alt="Protection céramique et film PPF auto-guerissant" loading="lazy">
+            <span class="service-badge">BOUCLIER INVISIBLE</span>
+          </div>
+          <div class="service-content">
+            <h3 class="service-title">Protection Céramique & PPF</h3>
+            <p class="service-description">
+              Application de revêtement Céramique Quartz Gtechniq & pose de film de protection carrosserie PPF XPEL Ultimate Plus. Anti-rayures, hydrophobe et par-balle contre les gravillons.
+            </p>
+            <div class="service-footer">
+              <div class="service-price">
+                <span class="price-label">À partir de</span>
+                <span class="price-amount">1 290 €</span>
+              </div>
+              <button class="service-link" data-open-modal="booking">
+                En savoir plus <span>→</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service Card 3 -->
+        <article class="service-card reveal">
+          <div class="service-image">
+            <img src="images/service-covering.jpg" alt="Covering et total wrap voiture supercar" loading="lazy">
+            <span class="service-badge">SUR-MESURE</span>
+          </div>
+          <div class="service-content">
+            <h3 class="service-title">Covering & Personnalisation</h3>
+            <p class="service-description">
+              Changement de couleur complet ou partiel avec les meilleurs vinyles du marché (Avery Dennison, 3M). Finitions satinées, mattes, brillantes ou fibre de carbone véritable.
+            </p>
+            <div class="service-footer">
+              <div class="service-price">
+                <span class="price-label">À partir de</span>
+                <span class="price-amount">2 490 €</span>
+              </div>
+              <button class="service-link" data-open-modal="booking">
+                En savoir plus <span>→</span>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. CLIENT WAITING EXPERIENCE SECTION (LOUNGE / CAR SPA)
+       ========================================================================== -->
+  <section class="section lounge-bg-wrapper" id="lounge">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">CONFORT ET PRIVILÈGE</span>
+        <h2 class="section-title">L'EXPÉRIENCE LOUNGE & CAR SPA</h2>
+        <p style="color: var(--silver-muted); margin-top: 16px;">
+          Pendant que nos maîtres detailers travaillent sur votre véhicule, profitez d'un espace d'attente haut de gamme pensé pour votre sérénité et votre productivité.
+        </p>
+      </div>
+      
+      <div class="lounge-grid">
+        <!-- Lounge Card 1 -->
+        <div class="lounge-card reveal">
+          <div class="lounge-card-img">
+            <img src="images/lounge-overview.jpg" alt="Salon VIP vitré donnant sur l'atelier de detailing" loading="lazy">
+          </div>
+          <div class="lounge-card-body">
+            <h3 class="lounge-card-title">Salon Panoramique Vitré</h3>
+            <p class="lounge-card-desc">
+              Observez chaque geste technique et la métamorphose de votre voiture à travers la baie vitrée panoramique insonorisée.
+            </p>
+          </div>
+        </div>
+
+        <!-- Lounge Card 2 -->
+        <div class="lounge-card reveal">
+          <div class="lounge-card-img">
+            <img src="images/lounge-coffee.jpg" alt="Service café barista d'exception et boissons rares" loading="lazy">
+          </div>
+          <div class="lounge-card-body">
+            <h3 class="lounge-card-title">Barista & Grands Crus</h3>
+            <p class="lounge-card-desc">
+              Savourez un espresso italien torréfié localement, notre sélection de thés bio ou une coupe de champagne de réserve.
+            </p>
+          </div>
+        </div>
+
+        <!-- Lounge Card 3 -->
+        <div class="lounge-card reveal">
+          <div class="lounge-card-img">
+            <img src="images/lounge-simulator.jpg" alt="Simulateur de pilotage dynamique Fanatec F1 GT3" loading="lazy">
+          </div>
+          <div class="lounge-card-body">
+            <h3 class="lounge-card-title">Simulateur F1 / GT3 Pro</h3>
+            <p class="lounge-card-desc">
+              Vivez les frissons des plus grands circuits du monde sur notre cockpit de simulation dynamique Fanatec triple écran.
+            </p>
+          </div>
+        </div>
+
+        <!-- Lounge Card 4 -->
+        <div class="lounge-card reveal">
+          <div class="lounge-card-img">
+            <img src="images/lounge-workspace.jpg" alt="Espace VIP travail connecté Wi-Fi 6" loading="lazy">
+          </div>
+          <div class="lounge-card-body">
+            <h3 class="lounge-card-title">Espace VIP Wi-Fi 6 & Live</h3>
+            <p class="lounge-card-desc">
+              Poursuivez vos activités pro dans un cadre feutré avec connexion très haut débit et accès vidéo direct sur votre véhicule.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. PROCESS / PROTOCOL SECTION
+       ========================================================================== -->
+  <section class="section" id="protocol">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">METHODOLOGIE CHIRURGICALE</span>
+        <h2 class="section-title">LE PROTOCOLE EN 6 ÉTAPES</h2>
+        <p style="color: var(--silver-muted); margin-top: 16px;">
+          Notre démarche standardisée garantit une rigueur absolue et des résultats dignes des concours d'élégance.
+        </p>
+      </div>
+      
+      <div class="protocol-steps">
+        <!-- Step 1 -->
+        <div class="step-card reveal">
+          <span class="step-number">01</span>
+          <h3 class="step-title">DIAGNOSTIC & CHECK-UP 360°</h3>
+          <p class="step-desc">
+            Analyse spectrophotométrique de la peinture, inspection des micro-rayures et relevé précis d'épaisseur de vernis.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card reveal">
+          <span class="step-number">02</span>
+          <h3 class="step-title">DÉCONTAMINATION ULTIME</h3>
+          <p class="step-desc">
+            Prélavage mousse neutre, décontamination ferreuse chimique et passage de clay bar mécanique sur l'ensemble de la carrosserie.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card reveal">
+          <span class="step-number">03</span>
+          <h3 class="step-title">CORRECTION SUR-MESURE</h3>
+          <p class="step-desc">
+            Polissage multi-passes à la polisseuse orbitale éliminant jusqu'à 99% des micro-rayures, hologrammes et oxydations.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step-card reveal">
+          <span class="step-number">04</span>
+          <h3 class="step-title">PROTECTION HAUTE DURABILITÉ</h3>
+          <p class="step-desc">
+            Pose sous température et hygrométrie contrôlées du revêtement Céramique Quartz ou installation du film PPF auto-guerissant.
+          </p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="step-card reveal">
+          <span class="step-number">05</span>
+          <h3 class="step-title">CONTRÔLE QUALITÉ RIGOUROUX</h3>
+          <p class="step-desc">
+            Inspection finale sous rampes de lumières LED d'analyse 5500K et séchage infrarouge stabilisateur.
+          </p>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="step-card reveal">
+          <span class="step-number">06</span>
+          <h3 class="step-title">RESTITUTION VIP</h3>
+          <p class="step-desc">
+            Remise de votre véhicule sous housse de protection satinée avec certificat de garantie et coffret d'entretien offert.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. BEFORE/AFTER RESULTS GALLERY
+       ========================================================================== -->
+  <section class="section" id="gallery" style="background: rgba(18,20,24,0.4);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">RÉSULTATS SPECTACULAIRES</span>
+        <h2 class="section-title">CORRECTION DE PEINTURE : AVANT / APRÈS</h2>
+        <p style="color: var(--silver-muted); margin-top: 16px;">
+          Faites glisser le curseur central pour apprécier l'élimination des micro-rayures et l'effet miroir de la carrosserie après polissage.
+        </p>
+      </div>
+
+      <!-- Draggable Before/After Slider Container -->
+      <div class="before-after-container reveal">
+        <div class="ba-slider" id="ba-slider-element">
+          <!-- Background image (AFTER) -->
+          <div class="ba-image after">
+            <img src="images/before-after.jpg" alt="Après restauration peinture miroir" loading="lazy">
+          </div>
+          
+          <!-- Foreground image (BEFORE) -->
+          <div class="ba-image before">
+            <img src="images/before-after.jpg" alt="Avant restauration micro rayures" loading="lazy" style="filter: contrast(0.85) brightness(0.8) hue-rotate(-10deg);">
+          </div>
+
+          <span class="ba-badge before-badge">AVANT (MICRO-RAYURES)</span>
+          <span class="ba-badge after-badge">APRÈS (RÉNOVATION 99%)</span>
+
+          <!-- Interactive Drag Handle -->
+          <div class="ba-handle">
+            <div class="ba-handle-button">↔</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. TESTIMONIALS SECTION
+       ========================================================================== -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="testimonials-wrapper">
+        <!-- Featured Image -->
+        <div class="testimonial-featured reveal">
+          <img src="images/testimonial-owner.jpg" alt="Client satisfait devant sa supercar détaillée chez Lyon Auto" loading="lazy">
+          <div class="testimonial-overlay">
+            <div class="badge">✦ CLIENTS SATISFAITS</div>
+            <h3 style="font-size: 1.3rem; margin-top: 10px; color: var(--gold-light);">L'AVIS DE NOS PROPRIÉTAIRES DE PRESTIGE</h3>
+          </div>
+        </div>
+
+        <!-- Review Carousel -->
+        <div class="reviews-carousel reveal">
+          <!-- Review 1 -->
+          <div class="review-card active">
+            <div class="stars">★★★★★</div>
+            <p class="review-quote">
+              "Un niveau de finition tout simplement inégalé à Lyon. Ma Porsche GT3 a retrouvé l'éclat absolu du jour de sa livraison en usine. Le film PPF posé dans la clean room est totalement invisible !"
+            </p>
+            <div class="review-author">
+              <span class="author-name">Alexandre D.</span>
+              <span class="author-car">Porsche 911 GT3 RS</span>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-quote">
+              "Le salon VIP vitré est incroyable. Pouvoir travailler tout en observant le soin apporté à ma Ferrari est une expérience unique. La céramique Quartz offre un effet déperlant spectaculaire."
+            </p>
+            <div class="review-author">
+              <span class="author-name">Marc-Antoine V.</span>
+              <span class="author-car">Ferrari F8 Tributo</span>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-quote">
+              "Une équipe de passionnés ultra-rigoureux. On ressent le professionnalisme d'exception dès la prise en charge lors du diagnostic 360°. Je recommande les yeux fermés."
+            </p>
+            <div class="review-author">
+              <span class="author-name">Jean-Baptiste R.</span>
+              <span class="author-car">Aston Martin Vantage</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. INSTANT ESTIMATOR & BOOKING CTA SECTION
+       ========================================================================== -->
+  <section class="section" id="booking">
+    <div class="container">
+      <div class="booking-section reveal">
+        <div class="section-header" style="margin-bottom: 40px; text-align: left;">
+          <span class="section-subtitle">SIMULATEUR DE TARIF EN DIRECT</span>
+          <h2 class="section-title">ESTIMEZ VOTRE PRESTATION & RÉSERVEZ</h2>
+        </div>
+
+        <div class="estimator-grid">
+          <!-- Estimator Controls -->
+          <div class="estimator-form">
+            <!-- Vehicle Selection -->
+            <div class="form-group" data-estimator-category="vehicle">
+              <label class="form-label">1. Catégorie de votre véhicule</label>
+              <div class="option-cards">
+                <div class="option-card" data-multiplier="0.85">
+                  <div class="option-title">Citadine / Sportive</div>
+                  <span style="font-size: 0.7rem; color: var(--text-muted);">Alpine, Mini, Cayman</span>
+                </div>
+                <div class="option-card selected" data-multiplier="1.0">
+                  <div class="option-title">Berline / GT</div>
+                  <span style="font-size: 0.7rem; color: var(--text-muted);">Porsche 911, M3, C63</span>
+                </div>
+                <div class="option-card" data-multiplier="1.25">
+                  <div class="option-title">SUV / Supercar</div>
+                  <span style="font-size: 0.7rem; color: var(--text-muted);">Urus, RS6, Ferrari</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service Selection -->
+            <div class="form-group" data-estimator-category="package">
+              <label class="form-label">2. Forfait de Soin Recommandé</label>
+              <div class="option-cards">
+                <div class="option-card selected" data-base-price="790" data-duration="2 à 3 Jours">
+                  <div class="option-title">Detailing Intégral</div>
+                  <span style="font-size: 0.75rem; color: var(--gold-light);">Polissage + Cuir</span>
+                </div>
+                <div class="option-card" data-base-price="1390" data-duration="3 à 4 Jours">
+                  <div class="option-title">Céramique Quartz</div>
+                  <span style="font-size: 0.75rem; color: var(--gold-light);">Protection 5 Ans</span>
+                </div>
+                <div class="option-card" data-base-price="2490" data-duration="4 à 5 Jours">
+                  <div class="option-title">Protection PPF Total</div>
+                  <span style="font-size: 0.75rem; color: var(--gold-light);">Film Auto-guérissant</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Addons -->
+            <div class="form-group">
+              <label class="form-label">3. Options de Protection Complémentaires</label>
+              <div style="display: flex; flex-direction: column; gap: 10px;">
+                <label style="display: flex; align-items: center; gap: 10px; font-size: 0.85rem; cursor: pointer;">
+                  <input type="checkbox" class="estimator-addon" data-price="250" style="accent-color: var(--gold-primary);">
+                  Traitement Céramique Jantes & Étriers (+250 €)
+                </label>
+                <label style="display: flex; align-items: center; gap: 10px; font-size: 0.85rem; cursor: pointer;">
+                  <input type="checkbox" class="estimator-addon" data-price="180" style="accent-color: var(--gold-primary);">
+                  Traitement Vitrage Hydrophobe Anti-Pluie (+180 €)
+                </label>
+                <label style="display: flex; align-items: center; gap: 10px; font-size: 0.85rem; cursor: pointer;">
+                  <input type="checkbox" class="estimator-addon" data-price="350" style="accent-color: var(--gold-primary);">
+                  Nourrissage & Imperméabilisation Cuir VIP (+350 €)
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price Summary & Action -->
+          <div class="price-summary-box">
+            <div>
+              <span class="badge" style="margin-bottom: 16px;">✦ ESTIMATION EN TEMPS RÉEL</span>
+              <div style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase;">Montant Estimatif TTC :</div>
+              <div class="summary-price" id="estimated-price">790 €</div>
+              <div style="margin-top: 12px; font-size: 0.85rem; color: var(--silver-muted);">
+                <span>⏱️ Durée estimée d'immobilisation : </span>
+                <strong id="estimated-duration" style="color: var(--gold-light);">2 à 3 Jours</strong>
+              </div>
+            </div>
+
+            <div style="margin-top: 32px;">
+              <button class="btn btn-gold" style="width: 100%;" data-open-modal="booking" id="estimator-book-btn">
+                <span>✦ CONFIRMER & RÉSERVER CE CRÉNEAU</span>
+              </button>
+              <p style="text-align: center; font-size: 0.75rem; color: var(--text-muted); margin-top: 12px;">
+                *Devis final validé gratuitement sur place lors du diagnostic 360° dans notre atelier de Lyon.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       10. FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div>
+          <a href="#home" class="logo" style="margin-bottom: 20px;">
+            <div class="logo-icon">LA</div>
+            <div class="logo-text">
+              <span class="logo-title">LYON AUTO</span>
+              <span class="logo-subtitle">DETAILING EXCEPTION</span>
+            </div>
+          </a>
+          <p style="font-size: 0.85rem; line-height: 1.7; color: var(--text-muted);">
+            L'excellence du soin et de la protection automobile à Lyon. Atelier spécialisé en detailing de précision, films PPF auto-guerissants et céramique Quartz.
+          </p>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div>
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#workshop">L'Atelier 850m²</a></li>
+            <li><a href="#services">Nos Services</a></li>
+            <li><a href="#lounge">Lounge & Car Spa</a></li>
+            <li><a href="#protocol">Protocole de Soin</a></li>
+            <li><a href="#gallery">Galerie Avant / Après</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Horaires -->
+        <div>
+          <h4>Horaires Atelier</h4>
+          <div class="contact-info-list" style="color: var(--text-muted);">
+            <p><strong>Lundi - Vendredi :</strong><br>08h30 - 19h00</p>
+            <p><strong>Samedi :</strong><br>09h00 - 17h30</p>
+            <p><strong>Dimanche :</strong><br>Fermé (Conciergerie VIP sur demande)</p>
+          </div>
+        </div>
+
+        <!-- Col 4: Contact & Coordonnées -->
+        <div>
+          <h4>Coordonnées Lyon</h4>
+          <div class="contact-info-list">
+            <p>📍 <strong>Adresse :</strong><br>14 Quai Rambaud, 69002 Lyon, France</p>
+            <p>📞 <strong>Téléphone :</strong><br><a href="tel:+33472400000" style="color: var(--gold-light);">+33 (0)4 72 40 00 00</a></p>
+            <p>✉️ <strong>Email :</strong><br><a href="mailto:contact@lyonauto-detailing.fr" style="color: var(--gold-light);">contact@lyonauto-detailing.fr</a></p>
+            <p>📸 <strong>Instagram :</strong><br><a href="#" style="color: var(--gold-primary);">@lyonauto_detailing</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 LYON AUTO. Tous droits réservés. Detailing d'Exception à Lyon.</div>
+        <div style="display: flex; gap: 20px;">
+          <a href="#">Mentions Légales</a>
+          <a href="#">Politique de Confidentialité</a>
+          <a href="#">CGV & Garanties</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL: BOOKING / QUOTE FORM
+       ========================================================================== -->
+  <div class="modal-backdrop" id="booking-modal">
+    <div class="modal-content">
+      <div class="modal-close">✕</div>
+      
+      <div style="text-align: center; margin-bottom: 28px;">
+        <span class="badge">✦ CONCIERGERIE AUTOMOBILE</span>
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-top: 10px; color: var(--gold-light);">
+          RÉSERVER UN SOIN À L'ATELIER
+        </h3>
+        <p style="font-size: 0.85rem; color: var(--silver-muted);">
+          Remplissez ce formulaire pour être recontacté sous 2 heures par notre chef d'atelier.
+        </p>
+      </div>
+
+      <form id="booking-form">
+        <div class="form-group">
+          <label class="form-label">Nom & Prénom</label>
+          <input type="text" class="input-field" placeholder="Ex: Jean Dupont" required>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label class="form-label">Téléphone</label>
+            <input type="tel" class="input-field" placeholder="06 00 00 00 00" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="email" class="input-field" placeholder="jean@exemple.fr" required>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label class="form-label">Marque & Modèle du Véhicule</label>
+            <input type="text" class="input-field" placeholder="Ex: Porsche 911 GT3" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Date souhaitée</label>
+            <input type="date" class="input-field" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Prestation souhaitée / Remarques</label>
+          <textarea class="input-field" rows="3" placeholder="Précisez l'état du véhicule ou vos souhaits particuliers..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-gold" style="width: 100%; margin-top: 10px;">
+          <span>✦ VALIDER MA DEMANDE DE RENDEZ-VOUS</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
